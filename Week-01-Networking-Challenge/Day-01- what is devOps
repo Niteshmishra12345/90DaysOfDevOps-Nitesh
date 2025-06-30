@@ -1,1 +1,40 @@
-DevOps
+# What is DevOps Why DevOps & its History:
+
+## pre-Coexist DevOps:
+
+1. Requirement Gathering – Understand what the client or user needs.
+2. Design – Plan the system architecture and software design.
+3. Development – Developers write code based on the design.
+4. Testing – QA team manually tests the software for bugs.
+5. Deployment – Operations team manually deploys code to production.
+6. Maintenance – Fix issues and release updates slowly and infrequently.
+
+## why DevOps became necessary:
+
+1. Slow Delivery – Manual processes made software releases slow and inconsistent.
+2. Team Silos – Developers and operations worked separately, causing miscommunication.
+3. Frequent Failures – Manual deployments often led to errors and unstable systems.
+4. Lack of Automation – Repetitive tasks like testing and deployment were not automated.
+5. Customer Demands – Users wanted faster updates, better quality, and quick bug fixes.
+
+## DevOps History
+
+1. Before 2000s, development and operations worked in isolated silos.
+2. In 2008, frustration with slow and error-prone releases grew in the tech community.
+3. In 2009, Patrick Debois coined the term DevOps at the first DevOpsDays event in Belgium.
+4. DevOps combined principles from Agile, Lean, and system administration.
+5. Companies like Amazon, Netflix, and Google popularized DevOps through automation and CI/CD.
+6. Today, DevOps is a global standard for fast, reliable, and collaborative software delivery.
+
+## What is DevOps: 
+
+it's a culture that emphasizes the collabration between development and operations teams.
+It's primary aim is to break down the silos that traditionly existed between these to teams,
+thereby increasing efficiency,reducing errors,and emproving product quality.
+DevOps incorporates everything from coading and source control to build processes,deployment,
+and ongoing maintence.
+
+
+
+
+
