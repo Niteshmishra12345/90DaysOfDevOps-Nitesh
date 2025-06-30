@@ -28,11 +28,9 @@
 
 ## What is DevOps: 
 
-it's a culture that emphasizes the collabration between development and operations teams.
-It's primary aim is to break down the silos that traditionly existed between these to teams,
-thereby increasing efficiency,reducing errors,and emproving product quality.
-DevOps incorporates everything from coading and source control to build processes,deployment,
-and ongoing maintence.
+DevOps is a culture and set of practices that bridges the gap between Development and operations.
+it enables faster ,more relible software delivery through collebration,automation,and continous
+improvement'
 
 ## key practices:
 
