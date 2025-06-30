@@ -34,7 +34,28 @@ thereby increasing efficiency,reducing errors,and emproving product quality.
 DevOps incorporates everything from coading and source control to build processes,deployment,
 and ongoing maintence.
 
+## key practices:
 
+1. CI/CD – Continuous Integration and Continuous Delivery for faster releases.
+2. Automation – Automate testing, deployment, and infrastructure setup.
+3. Monitoring & Logging – Track system performance and issues in real time.
+4. Infrastructure as Code (IaC) – Manage servers and environments using code.
+5. Collaboration – Break silos between development, operations, and QA teams.
+6. Version Control – Use tools like Git to track and manage code changes.
+
+## tools overview:
+
+1. Version Control – Git, GitHub, GitLab: Track and manage code changes.
+2. CI/CD – Jenkins, GitLab CI, CircleCI: Automate build, test, and deployment.
+3. Configuration Management – Ansible, Puppet, Chef: Automate server setup.
+4. Containerization – Docker: Package apps with dependencies into containers.
+5. Orchestration – Kubernetes: Manage and scale containerized applications.
+6. Monitoring – Prometheus, Grafana, ELK Stack: Monitor system health and logs.
+7. Cloud Platforms – AWS, Azure, GCP: Host and scale infrastructure on the cloud.
+
+## 📌 **Quick Revision Note**:
+1. DevOps = Collaboration + Automation + Monitoring + Continuous Feedback
+2. Goal = Faster & Reliable software delivery
 
 
 
