@@ -1,1 +1,90 @@
-hihh
+# OSI Model & TCP/IP Model
+##  OSI Model:
+.OSI (Open Systems Interconnection) model ek conceptual model hai jo networking ke communication ko 7 layers mein divide karta hai:
+
+| Layer # | Name             | Function                          | Real-Life Example            |
+| ------- | ---------------- | --------------------------------- | ---------------------------- |
+| 7       | **Application**  | User-facing protocols & services  | HTTP, FTP, DNS               |
+| 6       | **Presentation** | Data translation, encryption      | SSL, JPEG, MP4               |
+| 5       | **Session**      | Session setup & teardown          | Login sessions, API sessions |
+| 4       | **Transport**    | Reliable/unreliable data delivery | TCP (reliable), UDP (fast)   |
+| 3       | **Network**      | Routing, IP addressing            | IP, ICMP (ping)              |
+| 2       | **Data Link**    | MAC addressing, LAN communication | Ethernet, ARP                |
+| 1       | **Physical**     | Bits over medium (cable, air)     | Fiber, Wi-Fi, NIC            |
+------------------------------------------------------------------------------------------------
+
+1. Application Layer (Layer 7)
+Purpose: End-user ke software ke saath interact karta hai (e.g., browsers, email clients).
+#### Real-World Examples:
+.HTTP/HTTPS – Web browsing (Chrome/Firefox)
+.SMTP/POP3 – Email send/receive
+.FTP – File transfer via FileZilla
+#### DevOps Tip: Monitoring HTTP requests with tools like Postman or curl.
+
+2. Presentation Layer (Layer 6)
+Purpose: Data ko translate karta hai (encryption, compression, encoding).
+### Real-World Examples:
+SSL/TLS encryption – Secure websites (HTTPS)
+JPEG, MP4 – Media format handling
+### DevOps Tip: SSL cert handling during Nginx or Apache config.
+
+3. Session Layer (Layer 5)
+Purpose: Sessions ko establish, manage, aur terminate karta hai.
+Real-World Examples:
+a. Login sessions on websites
+b. Remote desktop session
+### DevOps Tip: Understanding cookies, sessions for authentication.
+
+4. Transport Layer (Layer 4)
+Purpose: Reliable data transfer between devices.
+Protocols: TCP, UDP
+### Real-World Examples:
+.TCP – Reliable communication (e.g., Email, Web Browsing)
+.UDP – Fast, no guarantee (e.g., Video streaming, Gaming)
+### DevOps Tip: Configuring firewall rules for TCP/UDP ports (e.g., iptables or AWS Security Groups).
+
+5. Network Layer (Layer 3)
+.Purpose: Logical addressing & routing of data packets.
+.Protocols: IP (IPv4/IPv6), ICMP
+### Real-World Examples:
+a. IP Addressing – Assigning static IPs to servers
+b. Ping (ICMP) – Check if server is reachable
+###DevOps Tip: Use ping, traceroute, and IP routing in cloud setups.
+
+6. Data Link Layer (Layer 2)
+Purpose: Physical addressing (MAC) & error detection in local network.
+Protocols: Ethernet, Wi-Fi, ARP
+### Real-World Examples:
+a. Switches – Forward data using MAC addresses
+b. ARP – Resolve IP to MAC in local network
+### DevOps Tip: Troubleshooting LAN issues in on-prem data centers.
+
+
+7. Physical Layer (Layer 1)
+Purpose: Actual transmission of bits over physical medium (cables, radio waves).
+### Real-World Examples:
+a. Ethernet Cables, Fiber Optics
+b. Wi-Fi Signal, Modem
+### DevOps Tip: Checking network interface cables or VM NICs.
+
+
+##🔸 TCP/IP Model (4 Layers)
+TCP/IP Model real-world internet communication ke liye use hota hai. Isme OSI ki 7 layers ko 4 parts mein combine kiya gaya hai.
+ ----------------------------------------------------------------------------------------------------------------------------------
+ | CP/IP Layer	    |       Corresponding OSI Layers	           |         Function                     |         Example         |
+ |------------------|--------------------------------------------|--------------------------------------|-------------------------|
+ | Application	    |   Application + Presentation + Session     |     	End-user services               |    HTTP, FTP, DNS       |
+ | Transport	      |        Transport	                         |    End-to-end communication          |    	TCP, UDP            | 
+ | Internet	        |        Network	                           |     Logical addressing and routing   |       IP, ICMP          |  
+ | Network Access  	|        Data Link + Physical	               |   Hardware transmission              |     Ethernet, Wi-Fi     |
+ ----------------------------------------------------------------------------------------------------------------------------------
+
+##⚙️ Real-World Example: Visiting a Website
+1. Application (HTTP) – You type https://google.com
+2. Transport (TCP) – Connection to port 443 established
+3. Internet (IP) – Packet routed to Google’s server IP
+4. Network Access (Ethernet) – Data sent via Wi-Fi/LAN
+
+
+
+
